@@ -56,7 +56,7 @@ stepsize = floor(64/max(cell_types));
 buffer = cell(1, max(cell_types));
 for i = 1:max(cell_types)
     idx = find(cell_types==i);
-    plot(ydata(idx,1), ydata(idx,2), 'o', 'MarkerEdgeColor', [0.8, 0.8, 0.8], 'MarkerFaceColor', Color(64-(i-1)*stepsize,:), 'MarkerSize', 3);
+    plot(ydata(idx,1), ydata(idx,2), 'o', 'MarkerEdgeColor', Color(64-(i-1)*stepsize,:), 'MarkerFaceColor', Color(64-(i-1)*stepsize,:), 'MarkerSize', 3);
     if i == 1
         hold on;
     end
@@ -85,7 +85,7 @@ stepsize = floor(64/max(cell_types));
 buffer = cell(1, max(cell_types));
 for i = 1:max(cell_types)
     idx = find(cell_types==i);
-    plot(ydata(idx,1), ydata(idx,2), 'o', 'MarkerEdgeColor', [0.8, 0.8, 0.8], 'MarkerFaceColor', Color(64-(i-1)*stepsize,:), 'MarkerSize', 4);
+    plot(ydata(idx,1), ydata(idx,2), 'o', 'MarkerEdgeColor', Color(64-(i-1)*stepsize,:), 'MarkerFaceColor', Color(64-(i-1)*stepsize,:), 'MarkerSize', 4);
     if i == 1
         hold on;
     end
