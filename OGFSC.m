@@ -7,7 +7,7 @@ function [OGFSC_idx, idx_output, cv2_threshold] = OGFSC(data, varargin)
 warning off;
 %% parameters setting up
 varList = {'nBins', 'minBinSize', 'LR_p', 'LR_thresholds', 'TW_threshold', 'plot_option'};
-convgThrh = {60, 100, 0.01, [0.5, 0.6, 0.7, 0.8, 0.9, 0.99, 0.999, 0.9999], 0.0001, 0}; % default values
+convgThrh = {60, 100, 0.01, [0.5, 0.6, 0.7, 0.8, 0.9, 0.99, 0.999, 0.9999], 0.0001, 1}; % default values
 if ~isempty(varargin)
     L = length(varargin);
     for i = 1:2:L-1
