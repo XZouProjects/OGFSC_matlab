@@ -1,5 +1,5 @@
-1. unzip the file 'GSE59739_DataTable.zip'
-2. save 'GSE59739_DataTable.txt' as 'GSE59739_DataTable.xlsx'
+1. unzip the file 'GSE59739_DataTable.zip' in the save folder with the source codes
+2. open the file 'GSE59739_DataTable.txt' using Excel and save it as 'GSE59739_DataTable.xlsx'
 3. run 'run_OGFSC_demo.m' to perform a demo analysis 
 
 
