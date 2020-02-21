@@ -1,2 +1,3 @@
 # OGFSC
-Performs optimized gene filtering for single-cell RNA-seq data
+OGFSC in matlab.
+Please go to https://github.com/XZouProjects/OGFSC-R for the R version of OGFSC.
